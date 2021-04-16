@@ -24,7 +24,6 @@
 
 // clang-format off
 #if (!ENABLED(ADVANCED_PAUSE_FEATURE)) || \
-    EXTRUDERS > 1 || \
     HAS_LCD_MENU || \
     ENABLED(MMU2_MENUS) || \
     ENABLED(MIXING_EXTRUDER) || \

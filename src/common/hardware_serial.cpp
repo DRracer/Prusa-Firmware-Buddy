@@ -80,7 +80,7 @@ size_t HardwareSerial2::write(uint8_t *buffer, size_t size) {
         return 0;
     }
 }
-HardwareSerial2 SerialUART1(USART1);
+HardwareSerial2 internalSerial(USART1);
 #endif // SERIAL_PORT == 1
 
 HardwareSerial Serial3(USART3);

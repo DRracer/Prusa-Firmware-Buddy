@@ -18,6 +18,7 @@ add_library(
   Marlin/Marlin/src/feature/binary_protocol.cpp
   Marlin/Marlin/src/feature/host_actions.cpp
   Marlin/Marlin/src/feature/joystick.cpp
+  Marlin/Marlin/src/feature/prusa_MMU2/mmu2.cpp
   Marlin/Marlin/src/feature/runout.cpp
   Marlin/Marlin/src/feature/spindle_laser.cpp
   Marlin/Marlin/src/feature/tmc_util.cpp
@@ -32,6 +33,7 @@ add_library(
   Marlin/Marlin/src/gcode/bedlevel/ubl/M421.cpp
   Marlin/Marlin/src/gcode/calibrate/G28.cpp
   Marlin/Marlin/src/gcode/config/M200-M205.cpp
+  Marlin/Marlin/src/gcode/config/M217.cpp
   Marlin/Marlin/src/gcode/config/M220.cpp
   Marlin/Marlin/src/gcode/config/M221.cpp
   Marlin/Marlin/src/gcode/config/M301.cpp
@@ -56,6 +58,7 @@ add_library(
   Marlin/Marlin/src/gcode/control/T.cpp
   Marlin/Marlin/src/gcode/eeprom/M500-M504.cpp
   Marlin/Marlin/src/gcode/feature/advance/M900.cpp
+  Marlin/Marlin/src/gcode/feature/prusa_MMU2/M403.cpp
   Marlin/Marlin/src/gcode/feature/runout/M412.cpp
   Marlin/Marlin/src/gcode/feature/trinamic/M122.cpp
   Marlin/Marlin/src/gcode/feature/trinamic/M569.cpp

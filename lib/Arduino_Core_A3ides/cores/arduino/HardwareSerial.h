@@ -2,6 +2,8 @@
 #ifndef _HARDWARESERIAL_H
 #define _HARDWARESERIAL_H
 
+#define USE_UART1_SERIAL
+
 #include <inttypes.h>
 #include "Stream.h"
 
@@ -36,7 +38,7 @@ public:
     virtual size_t write(uint8_t *buffer, size_t size);
     operator bool() { return true; };
 };
-extern HardwareSerial2 SerialUART1;
+extern HardwareSerial2 internalSerial;
 #endif
 
 extern HardwareSerial Serial3;

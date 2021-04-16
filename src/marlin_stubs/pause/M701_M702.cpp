@@ -24,9 +24,7 @@
 
 // clang-format off
 #if (!ENABLED(FILAMENT_LOAD_UNLOAD_GCODES)) || \
-    EXTRUDERS > 1 || \
     HAS_LCD_MENU || \
-    ENABLED(PRUSA_MMU2) || \
     ENABLED(MIXING_EXTRUDER) || \
     ENABLED(NO_MOTION_BEFORE_HOMING)
     #error unsupported
